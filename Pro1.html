@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sample Project</title>
+    <link rel="stylesheet" href="style1.css">
+    </head>
+<body>
+    <nav>
+    <ul class="topnav" id="dropdownclick">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="topnav-right"><a href="#signup">Signup</a></li>
+        <li class="topnav-right"><a href="#signin">Signin</a></li>
+        <li class="dropdown"><a href="javascipt:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container" id="section-1-gradient">
+    <div class="row">
+        <div class="col-6">
+        <div class="left-side-col">
+            <h1 class="large">Dressrosa</h1>
+            <h1 class="large">Donquixote Doflamingo</h1></div>      
+        <form>
+            <div class="left-side-col">
+            <h2>Username</h2>
+            <input class="inputBox" name="Username" type="text" placeholder="Username">
+            <h2>Password</h2>
+            <input class="inputBox" name="Password" type="password" placeholder="Password">    
+            </div>
+            </form>
+        </div>
+        <div class="col-6">
+         <div class="right-side-col">
+            <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fPuDTdQZzKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            </div>
+            </div>
+    </div>
+         </div>
+    </div>
+    
+    <header>
+    <h1 class="section-to-header">The Standard Awesomeness</h1>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+            <div class="box-leftside-col">
+          <div class="box">
+             <div class="icon">
+                 <img src="1.png">
+              </div>
+              <label>
+              Chat With Me
+              </label>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            </div>    
+          </div>
+           <div class="col-4">
+               <div class="box-leftside-col">
+          <div class="box">
+             <div class="icon">
+                 <img src="2.jpg">
+              </div>
+              <label>
+              Learn To Code
+              </label>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+            </div>
+          </div>
+          </div>       
+           <div class="col-4">
+         <div class="box-leftside-col">
+          <div class="box">
+             <div class="icon">
+                 <img src="3.png">
+              </div>
+              <label>
+              Build An Empire
+              </label>
+              <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was regretful and bouncy with this.
+              </p>
+            </div>
+          </div>
+          </div>       
+        </div>
+        <div class="row">
+        <div class="col-12">
+            <button type="button" class="learnmore">Learn More</button>
+            </div>
+        </div>
+   </div>
+    <hr>
+   <div class="container">
+       <div class="row">
+       <div class="col-7">
+    <article>
+       <p>
+        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was regretful and bouncy with this.
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.
+        </p>
+       </article>
+    </div>
+    <div class="col-5">
+    <div class="imag">
+        <img src="anime.jpg" width="300" height="200">
+        </div>
+    </div>
+    </div>
+</div>
+    <footer class="foot">
+    <div class="row">
+        <div class="col-3 mob">
+            <h1>Company</h1>
+            <ul>
+               <li>About</li>
+                <li>Blogs</li>
+                <li>Career</li>
+            </ul>
+        </div>
+        <div class="col-3 mob">
+            <h1>Company</h1>
+            <ul>
+               <li>About</li>
+                <li>Blogs</li>
+                <li>Career</li>
+            </ul>
+        </div>
+        <div class="col-3 mob">
+            <h1>Company</h1>
+            <ul>
+               <li>About</li>
+                <li>Blogs</li>
+                <li>Career</li>
+            </ul>
+        </div>
+        <div class="col-3 mob">
+            <h1>Company</h1>
+            <ul>
+               <li>About</li>
+                <li>Blogs</li>
+                <li>Career</li>
+            </ul>
+        </div>
+        </div>
+            
+    </footer>
+    
+    <script>
+    function dropDownMenu(){
+        var x=document.getElementById("dropdownclick")
+        if(x.className==="topnav"){
+            x.className += " responsive";
+        }
+        /*change class topnav to topnav.responsive*/
+        else{
+            x.className==="topnav";
+        }
+    }
+    </script>
+    </body>
+</html>
